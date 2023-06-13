@@ -1,0 +1,79 @@
+input {
+    border: none;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.calculator {
+    background: $calculator-background;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    width: 325px;
+    border: none;
+    padding: 12px;
+    border-radius: 16px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+}
+
+.screen {
+    grid-column: 1 / 5;
+    border-radius: 12px;
+    font-size: 32px;
+    height: 100px;
+    color: #fff;
+    background: #000000;
+    text-align: end;
+    padding: 8px;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.symbol,
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    aspect-ratio: 1;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20%;
+    transition: .15s ease;
+}
+
+.symbol {
+    background: $symbol;
+}
+
+.symbol:hover {
+    background: $symbol-hover;
+}
+
+.number {
+    background: $number;
+}
+
+.number:hover {
+    background: $number-hover;
+}
