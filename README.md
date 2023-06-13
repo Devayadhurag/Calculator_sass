@@ -21,5 +21,6 @@ You can try out the calculator app [here](link-to-demo-if-available).
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/calculator-app.git
+git clone https://github.com/Devayadhurag/Calculator_sass.git
+
 
