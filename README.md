@@ -18,9 +18,7 @@ You can try out the calculator app [here](https://devayadhurag.github.io/Calcula
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/Devayadhurag/Calculator_sass.git
-
-
