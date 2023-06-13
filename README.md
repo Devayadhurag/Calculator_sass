@@ -14,7 +14,7 @@ A simple calculator app built using HTML, Sass, and JavaScript.
 
 ## Demo
 
-You can try out the calculator app [here](link-to-demo-if-available).
+You can try out the calculator app [here](https://devayadhurag.github.io/Calculator_sass/).
 
 ## Installation
 
